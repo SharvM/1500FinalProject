@@ -1,5 +1,14 @@
 USE final_project_1500;
-DROP TABLE if exists total_cost;
+
+DROP TABLE IF EXISTS total_cost;
+DROP TABLE IF EXISTS billing;
+DROP TABLE IF EXISTS shipping;
+DROP TABLE IF EXISTS inquiry;
+DROP TABLE IF EXISTS employee_info;
+DROP TABLE IF EXISTS employee_response;
+DROP TABLE IF EXISTS package;
+DROP TABLE IF EXISTS customer;
+
 CREATE TABLE customer(
 	`first_name` VARCHAR(30),
     `last_name` VARCHAR(30), 
